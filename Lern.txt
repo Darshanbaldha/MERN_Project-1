@@ -1,0 +1,23 @@
+node version 18.20.4
+npm version 10.7.0
+// In first trminal(Frontend)
+npm create vite@latest client
+cd client
+npm run dev
+npm install react react-dom react-router-dom axios
+
+// In anoher terminal(Backend)
+mkdir server
+cd server
+npm init -y
+npm i express mongoose cors dotenv passport passport-google-oauth2 express-session
+mkdir .env
+mkdir app.js // node app.js to run
+mkdir db and create conn.js file
+mkdir models and create userschema.js file
+start mongodb compass
+
+
+// Frontend
+Add Bootstrep, Bootstrep icon and fontawsome.
+Add Components(Header , footer)
